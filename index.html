@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>니케 장탄계산기</title>
+    <title>니케 장탄계산기 ver 1.01</title>
     <style>
         body {
             font-family: 'Malgun Gothic', sans-serif;
@@ -81,10 +81,15 @@
     </div>
 
     <div class="input-group">
-        <label for="collectible">소장품</label>
+        <label for="collectible">소장품 [MG only]</label>
         <select id="collectible" onchange="calculate()">
-            <option value="0">없음 (0%)</option>
-            <option value="9.5">적용 (9.5%)</option>
+            <option value="0">없음</option>
+            <option value="1.56">1.56%</option>
+            <option value="3.15">3.15%</option>
+            <option value="4.74">4.74%</option>
+            <option value="6.32">6.32%</option>
+            <option value="7.91">7.91%</option> 
+            <option value="9.5">9.5%</option>
         </select>
     </div>
 
